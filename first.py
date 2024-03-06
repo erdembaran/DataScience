@@ -1,7 +1,11 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
-d = {'col1': [1,2,3,4,7],'col2': [4,5,6,9,5],'col3': [7,8,12,1,11]}
+pd.options.display.max_rows = 9999
 
-df = pd.DataFrame(data=d)
+df = pd.read_csv('dataset2.csv')
 
-print(df)
+print(df.to_string())
+
+
+    
