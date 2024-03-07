@@ -1,20 +1,12 @@
 import pandas as pd
 
-d = {
-    'col1': [1,2,3,4,7], 
-    'col2': [4,5,6,9,5], 
-    'col3': [7,8,12,1,11], 
+data = {
+    "name": ["cristiano", "lionel", "dusan", "edin", "eden"],
+    "lastname": ["ronaldo", "messi", "tadic", "dzeko", "hazard"],
+    "university": ["ubc", "harvard", "ucberkeley", "oxford", "cambridge"],
 }
 
-df = pd.DataFrame(data = d)
-
-print(df)
+df = pd.DataFrame(data)
 
 
-
-
-
-
-
-
-
+print(df.loc[[0,1,2,3,4], ["name", "university"]])

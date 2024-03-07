@@ -7,6 +7,5 @@ with open("dataset2.json", "r") as json_file:
 
 # Create a DataFrame from the loaded data
 df = pd.DataFrame(data_from_file)
-
 # Print the DataFrame
 print(df)
