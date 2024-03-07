@@ -9,4 +9,4 @@ data = {
 df = pd.DataFrame(data)
 
 
-print(df.loc[[0,1,2,3,4], ["name", "university"]])
+print(df)
