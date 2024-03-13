@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv('sales.csv')
+data = pd.read_csv('../csv/sales.csv')
 months = data[['Months']]
 sales = data[['Sales']]
 

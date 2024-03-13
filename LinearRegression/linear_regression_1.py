@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv('sales.csv')
+data = pd.read_csv('../csv/sales.csv')  
 
 months = data[['Months']]
                   
