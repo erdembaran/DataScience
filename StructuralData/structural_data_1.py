@@ -1,11 +1,7 @@
 import pandas as pd
-import json
 
-# Read the JSON file into a dictionary
-with open("../json/dataset2.json", "r") as json_file:
-    data_from_file = json.load(json_file)
+# Read the JSON file directly into a DataFrame
+df = pd.read_json("../json/dataset2.json")
 
-# Create a DataFrame from the loaded data
-df = pd.DataFrame(data_from_file)
 # Print the DataFrame
 print(df)
